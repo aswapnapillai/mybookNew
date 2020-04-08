@@ -46,9 +46,7 @@ services:
     ports:
       - 8766:8766
         spring:
-          image: spring-book-app
-          image: spring-book-app
-          image: spring-book-app
+          image: spring-bookRec-app
           build: bookrecommendationservice/
           restart: always
           network_mode: host

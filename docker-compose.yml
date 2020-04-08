@@ -15,6 +15,7 @@ services:
      MYSQL_PASSWORD: root
 
   spring:
+
     image: spring-book-app
     build: favouriteservice/
     restart: always
